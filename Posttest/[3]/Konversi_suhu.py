@@ -34,33 +34,33 @@ else:
 # definisi sekaligus operasi pengkonversian
 def Reamur():
   try:
-  suhu = float(input('Masukkan Celcius> '))
-  konversi = 4/5*suhu
-  print(f'Hasil konversi {suhu}°C adalah {konversi:g}°R!')
-  kembali_ke_menu()
+    suhu = float(input('Masukkan Celcius> '))
+    konversi = 4/5*suhu
+    print(f'Hasil konversi {suhu}°C adalah {konversi:g}°R!')
+    kembali_ke_menu()
   except:
-  input('Error! , Inputan harus Angka\n')
-  Reamur()
+    input('Error! , Inputan harus Angka\n')
+    Reamur()
   
 def Fahrenheit():
   try:
-  suhu = float(input('Masukkan Celcius> '))
-  konversi = (9/5*suhu)+32
-  print(f'Hasil konversi {suhu}°C adalah {konversi:g}°F!')
-  kembali_ke_menu()
+    suhu = float(input('Masukkan Celcius> '))
+    konversi = (9/5*suhu)+32
+    print(f'Hasil konversi {suhu}°C adalah {konversi:g}°F!')
+    kembali_ke_menu()
   except:
-  input('Error! , Inputan harus Angka\n')
-  Fahrenheit()
+    input('Error! , Inputan harus Angka\n')
+    Fahrenheit()
   
 def Kelvin():
   try:
-  suhu = float(input('Masukkan Celcius> '))
-  konversi = suhu + 273
-  print(f'Hasil konversi {suhu}°C adalah {konversi:g}°K!')
-  kembali_ke_menu()
+    suhu = float(input('Masukkan Celcius> '))
+    konversi = suhu + 273
+    print(f'Hasil konversi {suhu}°C adalah {konversi:g}°K!')
+    kembali_ke_menu()
   except:
-  input('Error! , Inputan harus Angka\n')
-  Kelvin()
+    input('Error! , Inputan harus Angka\n')
+    Kelvin()
 
 def kembali_ke_menu():
   print('\n')
