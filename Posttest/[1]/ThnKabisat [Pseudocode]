@@ -1,0 +1,33 @@
+Nama: Maulana Agus Setiawan
+
+“Menentukan Tahun Kabisat”
+-> Kalimat Deskriptif
+1. Masukkan tahun yang akan di cek / Masukkan tahun yang diinginkan
+2. Jika tahun yang di masukkan habis ketika dibagi 400, maka itu adalah Tahun
+Kabisat
+3. Jika tahun yang dimasukkan tidak habis ketika dibagi 400, tetapi habis ketika
+dibagi 100, Maka itu Bukan Tahun Kabisat
+4. Jika tahun yang dimasukkan tidak habis ketika dibagi 400, dan tidak habis ketika
+dibagi 100, namun saat dibagi 4 dia habis, maka itu adalah Tahun Kabisat
+5. Jika ada kondisi selain yang diatas maka itu bukan tahun kabisat
+
+
+<PSEUDOCODE>
+Program Menentukan Tahun Karbisat
+Deklarasi var tahun : integer
+Algoritma :
+
+INPUT tahun
+IF (tahun % 400 == 0) THEN
+  PRINT(tahun, ‘Merupakan tahun Kabisat’)
+  
+ELSE-IF(tahun % 100 == 0) THEN
+  PRINT(tahun, ‘Bukan Tahun Kabisat’)
+  
+ELSE-IF(tahun % 4 == 0) THEN
+  PRINT(tahun, ‘Merupakan tahun Kabisat’)
+  
+ELSE
+  PRINT(tahun, ‘Bukan Tahun Kabisat’)
+  
+ENDIF
