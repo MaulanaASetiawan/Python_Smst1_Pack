@@ -1,6 +1,8 @@
 # Python_Pemula
 Berisi hasil posttest yang bisa dibilang masih banyak bug & Kekurangan
 ---
+SOAL
+---
 ## Posttest 1
 Buatlah "Algoritma Deskriptif" dan "Pseudocode" untuk menentukan apakah suatu tahun merupakan tahun kabisat atau bukan!\
 Ketentuan :
@@ -79,3 +81,8 @@ Poin (+):
 - Dapat Melakukan Register
 - Menggunakan Nested Dictionary
 ---
+## Project Akhir
+Project Akhir> Program Hitung Pajak
+note:
+- Flowchart : Agak Kurang
+- Code      : Done 100%
